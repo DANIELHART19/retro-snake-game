@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2c5f2dff;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+  color: #ffe77aff;
+  padding: 0;
+  margin: 0;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 10px auto;
+}
+
+#start {
+  background-color: #ffe77aff;
+  color: #2c5f2dff;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s;
+  margin: 0;
+  outline: 0;
+}
+
+#start:hover {
+  transform: scale(1.1);
+}
+
+#start:active,
+#start:visited {
+  outline-style: none;
+  outline: none;
+}
+
+h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2rem;
+  color: #ffe77aff;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  border: solid 2px white;
+  background-color: #ffe77aff;
+  margin: 0;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #2c5f2dff;
+  border-radius: 8px;
+}
+
+.snake-head {
+  background: url(./apple.png);
+  background-size: contain;
+}
+
+.apple {
+  background-image: url(./apple.png);
+  background-position: center;
+  background-size: contain;
+  padding: none;
+}
